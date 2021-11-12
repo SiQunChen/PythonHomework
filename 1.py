@@ -1,0 +1,11 @@
+name=str(input())
+student_ID=int(input())
+Chinese=int(input())
+CS=int(input())
+PD=int(input())
+Total=Chinese+CS+PD
+Average=Total//3
+print(f"Name:{name}")
+print(f"ID:{student_ID}")
+print(f"Average:{Average}")
+print(f"Total:{Total}")

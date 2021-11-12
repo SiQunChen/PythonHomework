@@ -1,0 +1,11 @@
+a=str(input())
+b=str(input())
+x=str(input())
+y=str(input())
+c=a+b
+d=c.replace(x,y)
+z=len(d)
+e=c+d
+f=len(e)
+print(f)
+print((d[0:3:1]+d[z-3:z:1])*3)
